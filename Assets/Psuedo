@@ -1,0 +1,34 @@
+1. Prompt - Ask for characters 8-128
+    - alert if less 8
+    - alert if more 128
+
+2. Comfirm - uppercase
+    if answer yes - merg - add one letter
+3. confirm - lowercase
+    if answer yes - merg - add one letter
+4. confirm - numeric
+    if answer yes - merg - add one numeric
+5. confirm - special
+    if answer yes - merg - add one special
+    - this will generate the start of the password
+
+    - alert if less than 2 to start over 
+      and reset the final array for user to
+      re-select conditions
+
+6. function to randomise conditions - argument
+        if
+        - picks a random element from arrays selected 
+            - this will compose the "string"(which has started in the merg)
+    
+
+
+
+
+
+
+6.merging arrays - LOOP
+    - if user picks lower 
+    - if user picks upper merg
+    - if user picks 
+
