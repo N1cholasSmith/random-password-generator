@@ -8,7 +8,7 @@
 ## Description
 The Random Password Generator is the perfect tool to assist with generating complex passwords that meet the highest of security requirements. The Random Password Generator is constructed with the user being the highest priority, with prompts to ask what the user would like to include in their personalised unique password.
 
-[randompasswordgenerator.com](https://github.com/N1cholasSmith/random-password-generator)
+[randompasswordgenerator.com](https://n1cholassmith.github.io/random-password-generator/)
 ---
 ## Table of Contents
 - [Usage] (#usage)
