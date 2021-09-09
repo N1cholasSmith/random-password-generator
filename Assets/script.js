@@ -25,7 +25,7 @@ function inquireUser () {
   passwordLength = prompt('how long would you like your password? between 8-128 characters');
 
    if (passwordLength < 8 || passwordLength > 128) {
-     alert('the password is outside constraints, requires between 8-128 characters') //promt instead of alert
+     alert('the password is outside constraints, requires between 8-128 characters')
      inquireUser ()
   } else {confirmConditions()
   }

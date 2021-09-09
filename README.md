@@ -1,5 +1,5 @@
 
-mg alt="GitHub followers" src="https://img.shields.io/github/followers/N1cholasSmith?style=social">     <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/N1cholasSmith/horiseon-search-engine-optimization?style=social">     <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/w/N1cholasSmith/horiseon-search-engine-optimization?style=social">
+<img alt="GitHub followers" src="https://img.shields.io/github/followers/N1cholasSmith?style=social">     <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/N1cholasSmith/horiseon-search-engine-optimization?style=social">     <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/w/N1cholasSmith/horiseon-search-engine-optimization?style=social">
 
 
 # Random Password Generator
