@@ -1,6 +1,5 @@
-// Assignment Code
+
 var generateBtn = document.querySelector("#generate");
-// Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
 
@@ -18,23 +17,20 @@ var uppercaseConfirm
 var numbersConfirm
 var specialConfirm
 var password
-// --------------------------------------------------------------------------------
+// -------------------------------------Initial inquiry of how long they would like their password -------------------------------------------
 
-// need to add a cancel function to prompt
-// Add event listener to generate button
 generateBtn.addEventListener("click", inquireUser);
-cancelBtn.addEventListener("click", prompt);
 
 function inquireUser () {
   passwordLength = prompt('how long would you like your password? between 8-128 characters');
 
-  if (passwordLength < 8 || passwordLength > 128) {
-    alert('the password is outside constraints, requires between 8-128 characters') //promt instead of alert
-    inquireUser ()
+   if (passwordLength < 8 || passwordLength > 128) {
+     alert('the password is outside constraints, requires between 8-128 characters') //promt instead of alert
+     inquireUser ()
   } else {confirmConditions()
   }
 }
-
+// ---------------------------- confirms how complex they would like their password ---------------------------
 function confirmConditions() { 
   while (confirmed === false){
      lowercaseConfirm = confirm('would you like to include lowercase letters?')
@@ -53,15 +49,14 @@ function confirmConditions() {
     }
   }
 }
-// ------------------------------------------------------------------------------------------------------------------------
-// Write password to the #password input
+// ------------Merging the arrays together depending on selection and generating a random password into a string to display -------------------------------------------------------------------------------------------
+
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
   passwordText.value = password;
 }
 
-// changed from concat to push. merged array or password?
 function generatePassword() {
   console.log(lowercaseLetters)
   if (lowercaseConfirm === true) {
@@ -80,7 +75,6 @@ function generatePassword() {
     mergedArray = special.concat(mergedArray);
     console.log("special characters are added " + mergedArray)
   }
-
 
   console.log(mergedArray)
   const password = []
